@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Find your Food Recipe Now</title>
+  </head>
+  <body>
+    <!-- view-recipe-effect -->
+    <div class="view-recipe-effect">
+      <div class="content">
+        <div class="head">
+          <h1 class="meal-name">Pancake</h1>
+          <button class="fa-solid fa-xmark" id="cross-btn"></button>
+        </div>
+
+        <div class="heading">Ingredients:</div>
+        <ul class="ingredient-list">
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem, ipsum dolor.</li>
+        </ul>
+
+        <div class="instructions">
+          Instructions: Lorem ipsum, dolor sit amet consectetur adipisicing
+          elit. Consectetur, voluptatem.
+        </div>
+
+        <button class="youtube-btn">
+          <a class="youtube-link" href="www.youtube.com" target="_blank"
+            >see how to make</a
+          >
+        </button>
+      </div>
+    </div>
+    <!-- view-recipe-effect -->
+
+    <div class="container">
+      <div class="overlay">
+        <div class="header">
+          <!-- logo -->
+          <div class="logo">
+            <img src="assets/logo.png" alt="logo" />
+            <div class="name">Find Your Recipe</div>
+          </div>
+          <!-- logo -->
+
+          <div class="user-input">
+            <input
+              type="text"
+              name="inp"
+              id="inp"
+              class="inp"
+              placeholder="Find your Recipe Now..."
+            />
+            <button class="btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+        <!-- header -->
+        <div class="recipe-body"></div>
+        <div class="recipe-details"></div>
+      </div>
+      <!--  overlay -->
+    </div>
+    <!--  container -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
